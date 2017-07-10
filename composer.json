@@ -1,0 +1,25 @@
+{
+    "name": "nature/simulator",
+    "description": "",
+    "authors": [
+        {
+            "name": "Biyi Akinpelu",
+            "email": "bileckme@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.4.1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/Nature/Simulator"
+        ],
+        "psr-4": {
+            "Nature\\Simulator\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
